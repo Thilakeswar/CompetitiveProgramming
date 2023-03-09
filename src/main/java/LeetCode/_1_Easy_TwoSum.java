@@ -5,15 +5,18 @@ import java.util.Map;
 
 /**
  * https://leetcode.com/problems/two-sum/
- * <p>
+ *
+ * 1. Two Sum
+ * Easy
+ *
  * Given an array of integers nums and an integer target,
  * return indices of the two numbers such that they add up to target.
- * <p>
+ * 
  * You may assume that each input would have exactly one solution,
  * and you may not use the same element twice.
- * <p>
+ * 
  * You can return the answer in any order.
- * <p>
+ * 
  * <p>
  * <p>
  * Example 1:
@@ -45,7 +48,7 @@ import java.util.Map;
  * Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
  */
 
-public class _1_TwoSum
+public class _1_Easy_TwoSum
 {
 	public int[] twoSum(int[] nums, int target)
 	{
