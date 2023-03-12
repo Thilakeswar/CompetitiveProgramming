@@ -1,7 +1,5 @@
 package LeetCode;
 
-import java.util.Stack;
-
 /**
  * https://leetcode.com/problems/integer-to-roman/
  *
@@ -62,7 +60,7 @@ import java.util.Stack;
  *
  *     1 <= num <= 3999
  */
-public class _12_IntegerToRoman
+public class _12_Medium_IntegerToRoman
 {
 	public String intToRoman(int num)
 	{
