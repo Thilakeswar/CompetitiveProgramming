@@ -62,6 +62,9 @@ public class _13_Easy_RomanToInteger
 {
 	public int romanToInt(String s)
 	{
+		/**
+		 * Solution - 3
+		 */
 		int output = 0;
 		Map<Character, Integer> metaData = new HashMap<Character, Integer>(){{
 			put('I', 1);
@@ -87,6 +90,9 @@ public class _13_Easy_RomanToInteger
 			}
 		}
 		return output;
+		/**
+		 * Solution - 2
+		 */
 		/*
 		int output = 0;
 		Map<String, Integer> metaData = new HashMap<String, Integer>(){{
@@ -125,6 +131,9 @@ public class _13_Easy_RomanToInteger
 		return output;
 		*/
 
+		/**
+		 * Solution - 1
+		 */
 		/*
 		int total = 0;
 		int length = s.length();
