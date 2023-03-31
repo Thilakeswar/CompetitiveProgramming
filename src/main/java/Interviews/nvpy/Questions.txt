@@ -1,0 +1,10 @@
+Company : Nvpy
+Date : 31/03/2023
+
+Coding :
+1)
+Find the least unique number from an array
+
+2)
+How to find all pairs of integers whose sum is equal to a given number.
+For example if input integer array is {2, 6, 3, 9, 11} and given sum is 9, output should be {6,3}.
