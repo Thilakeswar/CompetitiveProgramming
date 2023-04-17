@@ -10,6 +10,7 @@ public class Q3_Solution
 	{
 		alterFileNames(new String[]{"doc", "doc", "image", "doc(1)", "doc"});
 		alterFileNames(new String[]{"a(1)","a(4)","a(5)","a(6)","a","a","a","a","a","a","a","a","a","a","a(6)","a(4)","a(2)"});
+		alterFileNames(new String[]{"dd", "dd(1)", "dd(2)", "dd", "dd(1)", "dd(1)(2)", "dd(1)(1)", "dd", "dd(1)"});
 	}
 
 	public static void alterFileNames(String[] names) throws Exception
